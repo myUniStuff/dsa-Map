@@ -1,0 +1,77 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/osaki/SCHOOL/s2/dsa/Map/include",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "CMakeFiles/map.dir/src/App.cpp.o",
+      "/home/osaki/SCHOOL/s2/dsa/Map/src/App.cpp"
+    ],
+    "directory": "/home/osaki/SCHOOL/s2/dsa/Map",
+    "file": "/home/osaki/SCHOOL/s2/dsa/Map/src/App.cpp",
+    "output": "/home/osaki/SCHOOL/s2/dsa/Map/CMakeFiles/map.dir/src/App.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/osaki/SCHOOL/s2/dsa/Map/include",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "CMakeFiles/map.dir/src/ExtendedTest.cpp.o",
+      "/home/osaki/SCHOOL/s2/dsa/Map/src/ExtendedTest.cpp"
+    ],
+    "directory": "/home/osaki/SCHOOL/s2/dsa/Map",
+    "file": "/home/osaki/SCHOOL/s2/dsa/Map/src/ExtendedTest.cpp",
+    "output": "/home/osaki/SCHOOL/s2/dsa/Map/CMakeFiles/map.dir/src/ExtendedTest.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/osaki/SCHOOL/s2/dsa/Map/include",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "CMakeFiles/map.dir/src/Map.cpp.o",
+      "/home/osaki/SCHOOL/s2/dsa/Map/src/Map.cpp"
+    ],
+    "directory": "/home/osaki/SCHOOL/s2/dsa/Map",
+    "file": "/home/osaki/SCHOOL/s2/dsa/Map/src/Map.cpp",
+    "output": "/home/osaki/SCHOOL/s2/dsa/Map/CMakeFiles/map.dir/src/Map.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/osaki/SCHOOL/s2/dsa/Map/include",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "CMakeFiles/map.dir/src/MapIterator.cpp.o",
+      "/home/osaki/SCHOOL/s2/dsa/Map/src/MapIterator.cpp"
+    ],
+    "directory": "/home/osaki/SCHOOL/s2/dsa/Map",
+    "file": "/home/osaki/SCHOOL/s2/dsa/Map/src/MapIterator.cpp",
+    "output": "/home/osaki/SCHOOL/s2/dsa/Map/CMakeFiles/map.dir/src/MapIterator.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/osaki/SCHOOL/s2/dsa/Map/include",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "CMakeFiles/map.dir/src/ShortTest.cpp.o",
+      "/home/osaki/SCHOOL/s2/dsa/Map/src/ShortTest.cpp"
+    ],
+    "directory": "/home/osaki/SCHOOL/s2/dsa/Map",
+    "file": "/home/osaki/SCHOOL/s2/dsa/Map/src/ShortTest.cpp",
+    "output": "/home/osaki/SCHOOL/s2/dsa/Map/CMakeFiles/map.dir/src/ShortTest.cpp.o"
+  }
+]
