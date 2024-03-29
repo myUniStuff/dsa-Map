@@ -8,10 +8,12 @@ Map::Map() {
   mapSize = 0;
   elements = new TElem[capacity];
 }
+// BC = WC = TC: Theta(1)
 
 Map::~Map() {
 	delete[] elements;
 }
+// BC = WC = TC: Theta(1)
 
 TValue Map::add(TKey c, TValue v){
 	for (int i = 0; i < mapSize; i += 1) {
@@ -39,6 +41,7 @@ TValue Map::add(TKey c, TValue v){
 
 	return NULL_TVALUE;
 }
+// BC: Theta(1), WC: Theta(mapSize), TC: O(mapSize)
 
 TValue Map::search(TKey c) const{
 	for (int i = 0; i < mapSize; i += 1) {
@@ -48,6 +51,7 @@ TValue Map::search(TKey c) const{
   }
 	return NULL_TVALUE;
 }
+// BC: Theta(1), WC: Theta(mapSize), TC: O(mapSize)
 
 TValue Map::remove(TKey c){
 	for (int i = 0; i < mapSize; i += 1) {
@@ -60,19 +64,22 @@ TValue Map::remove(TKey c){
   }
 	return NULL_TVALUE;
 }
+// BC: Theta(1), WC: Theta(mapSize), TC: O(mapSize)
 
 
 int Map::size() const {
 	return mapSize;
 }
+// BC = WC = TC: Theta(1)
 
 bool Map::isEmpty() const{
 	return mapSize == 0;
 }
+// BC = WC = TC: Theta(1)
 
 MapIterator Map::iterator() const {
 	return MapIterator(*this);
 }
-
+// BC = WC = TC: Theta(1)
 
 
